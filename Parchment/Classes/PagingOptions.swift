@@ -96,11 +96,11 @@ public class PagingOptions {
     #endif
     
     textColor = UIColor.black
-    selectedTextColor = UIColor(red: 3/255, green: 125/255, blue: 233/255, alpha: 1)
+    selectedTextColor = UIColor(red: 79/255, green: 177/255, blue: 196/255, alpha: 1)
     backgroundColor = .clear
     selectedBackgroundColor = .clear
     menuBackgroundColor = UIColor.white
     borderColor = UIColor(white: 0.9, alpha: 1)
-    indicatorColor = UIColor(red: 3/255, green: 125/255, blue: 233/255, alpha: 1)
+    indicatorColor = UIColor(red: 79/255, green: 177/255, blue: 196/255, alpha: 1)
   }
 }
