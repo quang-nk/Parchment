@@ -77,7 +77,7 @@ public class PagingOptions {
     contentInteraction = .scrolling
     
     indicatorOptions = .visible(
-        height: 4,
+        height: 2,
         zIndex: Int.max,
         spacing: UIEdgeInsets.zero,
         insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
@@ -96,11 +96,11 @@ public class PagingOptions {
     #endif
     
     textColor = UIColor.black
-    selectedTextColor = UIColor(red: 79/255, green: 177/255, blue: 196/255, alpha: 1)
+    selectedTextColor = UIColor(red: 1/255, green: 179/255, blue: 201/255, alpha: 1)
     backgroundColor = .clear
     selectedBackgroundColor = .clear
     menuBackgroundColor = UIColor.white
     borderColor = UIColor(white: 0.9, alpha: 1)
-    indicatorColor = UIColor(red: 79/255, green: 177/255, blue: 196/255, alpha: 1)
+    indicatorColor = UIColor(red: 1/255, green: 179/255, blue: 201/255, alpha: 1)
   }
 }
