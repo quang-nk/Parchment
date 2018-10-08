@@ -68,7 +68,7 @@ public class PagingOptions {
     menuTransition = .scrollAlongside
     menuInteraction = .scrolling
     menuItemSource = .class(type: PagingTitleCell.self)
-    menuInsets = UIEdgeInsets.zero
+    menuInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
     menuItemSpacing = 0
     menuHorizontalAlignment = .left
     includeSafeAreaInsets = true
@@ -77,7 +77,7 @@ public class PagingOptions {
     contentInteraction = .scrolling
     
     indicatorOptions = .visible(
-        height: 2,
+        height: 0,
         zIndex: Int.max,
         spacing: UIEdgeInsets.zero,
         insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
@@ -88,15 +88,15 @@ public class PagingOptions {
         insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
 
     #if swift(>=4.0)
-    font = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
-    selectedFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
+    font = UIFont(name: "Montserrat-SemiBold", size: 12)!
+    selectedFont = UIFont(name: "Montserrat-SemiBold", size: 17)!
     #else
     font = UIFont.systemFont(ofSize: 15, weight: UIFontWeightMedium)
     selectedFont = UIFont.systemFont(ofSize: 15, weight: UIFontWeightMedium)
     #endif
     
-    textColor = UIColor.black
-    selectedTextColor = UIColor(red: 1/255, green: 179/255, blue: 201/255, alpha: 1)
+    textColor = UIColor.gray
+    selectedTextColor = UIColor(red: 78/255, green: 97/255, blue: 129/255, alpha: 1)
     backgroundColor = .clear
     selectedBackgroundColor = .clear
     menuBackgroundColor = UIColor.white
