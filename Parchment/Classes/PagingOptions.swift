@@ -74,7 +74,7 @@ public class PagingOptions {
     includeSafeAreaInsets = true
     indicatorClass = PagingIndicatorView.self
     borderClass = PagingBorderView.self
-    contentInteraction = .scrolling
+    contentInteraction = .none
     
     indicatorOptions = .visible(
         height: 0,
