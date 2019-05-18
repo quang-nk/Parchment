@@ -77,7 +77,7 @@ public class PagingOptions {
     contentInteraction = .scrolling
     
     indicatorOptions = .visible(
-        height: 1,
+        height: 2,
         zIndex: Int.max,
         spacing: UIEdgeInsets.zero,
         insets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
