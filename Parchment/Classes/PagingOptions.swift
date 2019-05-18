@@ -64,11 +64,11 @@ public class PagingOptions {
   
   public init() {
     selectedScrollPosition = .preferCentered
-    menuItemSize = .sizeToFit(minWidth: 150, height: 40)
+    menuItemSize = .sizeToFit(minWidth: 150, height: 50)
     menuTransition = .scrollAlongside
     menuInteraction = .scrolling
     menuItemSource = .class(type: PagingTitleCell.self)
-    menuInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
+    menuInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     menuItemSpacing = 0
     menuHorizontalAlignment = .left
     includeSafeAreaInsets = true
