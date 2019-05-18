@@ -88,8 +88,8 @@ public class PagingOptions {
         insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
 
     #if swift(>=4.0)
-    font = UIFont(name: "Montserrat-SemiBold", size: 12)!
-    selectedFont = UIFont(name: "Montserrat-SemiBold", size: 17)!
+    font = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
+    selectedFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
     #else
     font = UIFont.systemFont(ofSize: 15, weight: UIFontWeightMedium)
     selectedFont = UIFont.systemFont(ofSize: 15, weight: UIFontWeightMedium)
