@@ -74,13 +74,13 @@ public class PagingOptions {
     includeSafeAreaInsets = true
     indicatorClass = PagingIndicatorView.self
     borderClass = PagingBorderView.self
-    contentInteraction = .none
+    contentInteraction = .scrolling
     
     indicatorOptions = .visible(
-        height: 0,
+        height: 1,
         zIndex: Int.max,
         spacing: UIEdgeInsets.zero,
-        insets: UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
+        insets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
   
     borderOptions = .visible(
         height: 1,
@@ -96,11 +96,11 @@ public class PagingOptions {
     #endif
     
     textColor = UIColor.gray
-    selectedTextColor = UIColor(red: 78/255, green: 97/255, blue: 129/255, alpha: 1)
+    selectedTextColor = UIColor(red: 227/255, green: 71/255, blue: 52/255, alpha: 1)
     backgroundColor = .clear
     selectedBackgroundColor = .clear
     menuBackgroundColor = UIColor.white
     borderColor = UIColor(white: 0.9, alpha: 1)
-    indicatorColor = UIColor(red: 1/255, green: 179/255, blue: 201/255, alpha: 1)
+    indicatorColor = UIColor(red: 227/255, green: 71/255, blue: 52/255, alpha: 1)
   }
 }
