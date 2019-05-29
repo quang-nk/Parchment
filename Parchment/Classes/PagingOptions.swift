@@ -64,7 +64,7 @@ public class PagingOptions {
   
   public init() {
     selectedScrollPosition = .preferCentered
-    menuItemSize = .sizeToFit(minWidth: 150, height: 50)
+    menuItemSize = .sizeToFit(minWidth: 100, height: 50)
     menuTransition = .scrollAlongside
     menuInteraction = .scrolling
     menuItemSource = .class(type: PagingTitleCell.self)
